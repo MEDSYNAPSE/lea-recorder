@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="robots" content="noindex">
+<title>Lea Recorder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Mono:wght@500&display=swap">
+<style>
+/* One phrase at a time: the sentence big, the record button under the thumb, lesson progress as a strip of dots. */
+:root {
+  --bg: #f3f5f7; --card: #ffffff; --fg: #15202b; --muted: #5b6875; --line: #d6dde4;
+  --accent: #b3121f; --accent-fg: #ffffff; --done: #1f6f50; --soft: #e9eef2;
+  --text: "Noto Sans", system-ui, -apple-system, sans-serif;
+  --mono: "Noto Sans Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0f151b; --card: #18212a; --fg: #e8edf2; --muted: #9aa7b4; --line: #2b3742;
+          --accent: #e0414d; --accent-fg: #ffffff; --done: #4fbf8f; --soft: #202b35; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.45 var(--text);
+       padding: env(safe-area-inset-top, 0px) max(16px, env(safe-area-inset-right, 0px))
+                env(safe-area-inset-bottom, 0px) max(16px, env(safe-area-inset-left, 0px)); }
+.wrap { max-width: 560px; margin: 0 auto; min-height: 100%; display: flex; flex-direction: column; gap: 14px; padding-block: 14px 18px; }
+header { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+select { flex: 1 1 220px; min-width: 0; font: inherit; font-weight: 600; color: var(--fg); background: var(--card);
+         border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+.count { color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px 18px; display: grid; gap: 10px; }
+.pos { color: var(--muted); font-size: 13px; letter-spacing: .04em; text-transform: uppercase; font-variant-numeric: tabular-nums; }
+.tongan { font-size: clamp(26px, 7vw, 34px); font-weight: 700; line-height: 1.2; margin: 0; text-wrap: balance; overflow-wrap: anywhere; }
+.say { font-family: var(--mono); font-size: 17px; margin: 0; overflow-wrap: anywhere; }
+.say b { font-weight: 500; color: var(--muted); font-family: var(--text); font-size: 13px; margin-right: 6px; }
+.english { color: var(--muted); margin: 0; }
+.tips { margin: 4px 0 0; padding-left: 18px; color: var(--muted); font-size: 14px; display: grid; gap: 4px; }
+.controls { display: grid; grid-template-columns: 1fr auto 1fr; gap: 12px; align-items: center; }
+button { font: inherit; font-weight: 600; color: var(--fg); background: var(--card); border: 1px solid var(--line);
+         border-radius: 12px; padding: 12px 14px; cursor: pointer; }
+button:disabled { opacity: .4; cursor: default; }
+button:focus-visible, select:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+#rec { width: 96px; height: 96px; border-radius: 50%; background: var(--accent); color: var(--accent-fg); border: 0; font-size: 17px; }
+#rec.on { animation: pulse 1.2s ease-in-out infinite; }
+@keyframes pulse { 0%,100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 55%, transparent); }
+                   50% { box-shadow: 0 0 0 14px color-mix(in srgb, var(--accent) 0%, transparent); } }
+@media (prefers-reduced-motion: reduce) { #rec.on { animation: none; outline: 4px solid var(--accent); outline-offset: 4px; } }
+.take { display: flex; gap: 10px; align-items: center; justify-content: center; flex-wrap: wrap; min-height: 48px; }
+.take span { color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+.dots { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; padding: 0; margin: 0; }
+.dots button { width: 30px; height: 30px; padding: 0; border-radius: 50%; font-size: 12px; font-weight: 600;
+               background: var(--soft); border: 2px solid transparent; color: var(--muted); font-variant-numeric: tabular-nums; }
+.dots button.has { background: var(--done); color: #fff; }
+.dots button.cur { border-color: var(--fg); }
+footer { margin-top: auto; display: grid; gap: 8px; }
+#share { background: var(--fg); color: var(--bg); border: 0; padding: 14px; }
+#status { margin: 0; color: var(--muted); font-size: 14px; text-align: center; min-height: 1.4em; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <select id="lesson" aria-label="Lesson"></select>
+    <span class="count" id="count"></span>
+  </header>
+
+  <section class="card" aria-live="polite">
+    <div class="pos" id="pos"></div>
+    <p class="tongan" id="tongan"></p>
+    <p class="say" id="say"></p>
+    <p class="english" id="english"></p>
+    <ul class="tips" id="tips"></ul>
+  </section>
+
+  <div class="controls">
+    <button id="prev">Back</button>
+    <button id="rec">Record</button>
+    <button id="next">Next</button>
+  </div>
+  <div class="take"><button id="play" hidden>Play my take</button><span id="takeinfo"></span></div>
+
+  <ol class="dots" id="dots" aria-label="Phrases"></ol>
+
+  <footer>
+    <button id="share">Send takes</button>
+    <p id="status"></p>
+  </footer>
+</div>
+
+<script src="lessons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js" integrity="sha384-+mbV2IY1Zk/X1p/nWllGySJSUN8uMs+gUAN10Or95UBH0fpj6GfKgPmgC5EXieXG" crossorigin="anonymous"></script>
+<script>
+const $ = id => document.getElementById(id);
+const LESSONS = window.LESSONS || [];
+let L = 0, i = 0, db = null, stream = null, rec = null, wake = null, timer = null, player = null;
+const takes = {};                       // phrase id -> {buf, mime, dur, ts, text, lesson}
+
+const remember = (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} };
+const recall = k => { try { return localStorage.getItem(k); } catch (e) { return null; } };
+const say = msg => { $("status").textContent = msg; };
+const cur = () => LESSONS[L].phrases[i];
+
+function openDb() {
+  return new Promise(res => {
+    try {
+      const r = indexedDB.open("lea-recorder", 1);
+      r.onupgradeneeded = () => r.result.createObjectStore("takes");
+      r.onsuccess = () => res(r.result);
+      r.onerror = () => res(null);
+    } catch (e) { res(null); }
+  });
+}
+function loadTakes() {
+  return new Promise(res => {
+    if (!db) return res();
+    try {
+      const q = db.transaction("takes").objectStore("takes").openCursor();
+      q.onsuccess = () => { const c = q.result; if (c) { takes[c.key] = c.value; c.continue(); } else res(); };
+      q.onerror = () => res();
+    } catch (e) { res(); }
+  });
+}
+function saveTake(id, v) {
+  try { db.transaction("takes", "readwrite").objectStore("takes").put(v, id); }
+  catch (e) { say("Could not save this take on the phone. Send takes before closing the page."); }
+}
+
+function render() {
+  const lesson = LESSONS[L], p = cur(), t = takes[p.id];
+  const done = lesson.phrases.filter(x => takes[x.id]).length;
+  $("count").textContent = `${done} of ${lesson.phrases.length} recorded`;
+  $("pos").textContent = `Phrase ${i + 1} of ${lesson.phrases.length}`;
+  $("tongan").textContent = p.text;
+  $("say").innerHTML = "";
+  if (p.say) { const b = document.createElement("b"); b.textContent = "Say it"; $("say").append(b, p.say); }
+  $("english").textContent = p.english;
+  $("tips").replaceChildren(...(p.tips || []).map(s => { const li = document.createElement("li"); li.textContent = s; return li; }));
+  const live = rec && rec.state === "recording";
+  $("rec").textContent = live ? "Stop" : (t ? "Redo" : "Record");
+  $("rec").classList.toggle("on", !!live);
+  $("prev").disabled = live || i === 0;
+  $("next").disabled = live || i === lesson.phrases.length - 1;
+  $("lesson").disabled = live;
+  $("play").hidden = !t || live;
+  $("takeinfo").textContent = live ? "" : (t ? `Saved, ${t.dur.toFixed(1)} s` : "Not recorded yet");
+  $("dots").replaceChildren(...lesson.phrases.map((x, k) => {
+    const li = document.createElement("li"), b = document.createElement("button");
+    b.textContent = k + 1; b.className = (takes[x.id] ? "has " : "") + (k === i ? "cur" : "");
+    b.setAttribute("aria-label", `Phrase ${k + 1}${takes[x.id] ? ", recorded" : ""}`);
+    b.disabled = live; b.onclick = () => go(k); li.append(b); return li;
+  }));
+  $("share").textContent = done ? `Send ${lesson.short} takes (${done})` : "Send takes";
+  $("share").disabled = !done || live;
+  remember("lea-pos", `${lesson.key}:${i}`);
+}
+function go(k) { i = Math.max(0, Math.min(LESSONS[L].phrases.length - 1, k)); stopPlay(); render(); }
+
+async function toggleRec() {
+  if (rec && rec.state === "recording") { rec.stop(); return; }
+  stopPlay();
+  try {
+    stream = stream || await navigator.mediaDevices.getUserMedia(
+      {audio: {channelCount: 1, echoCancellation: false, noiseSuppression: false, autoGainControl: false}});
+  } catch (e) {
+    say("The microphone is blocked. Allow it for this site in Settings, then reload."); return;
+  }
+  const mime = ["audio/mp4", "audio/webm;codecs=opus", "audio/webm"]
+    .find(m => window.MediaRecorder && MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported(m)) || "";
+  const p = cur(), chunks = [], t0 = Date.now();
+  rec = new MediaRecorder(stream, mime ? {mimeType: mime} : undefined);
+  rec.ondataavailable = e => { if (e.data && e.data.size) chunks.push(e.data); };
+  rec.onstop = async () => {
+    clearInterval(timer);
+    const type = (rec.mimeType || mime || "audio/mp4").split(";")[0];
+    const buf = await new Blob(chunks, {type}).arrayBuffer();
+    const v = {buf, mime: type, dur: (Date.now() - t0) / 1000, ts: Date.now(), text: p.text, lesson: p.lesson};
+    takes[p.id] = v; saveTake(p.id, v);
+    try { wake && wake.release(); } catch (e) {} wake = null;
+    say(v.dur < 0.6 ? "That take was very short. Tap Redo if it cut off." : "");
+    render();
+  };
+  rec.start();
+  try { wake = await navigator.wakeLock.request("screen"); } catch (e) {}
+  timer = setInterval(() => { $("takeinfo").textContent = `Recording ${((Date.now() - t0) / 1000).toFixed(1)} s`; }, 100);
+  say(""); render();
+}
+
+function stopPlay() { if (player) { player.pause(); player = null; } }
+function play() {
+  const t = takes[cur().id]; if (!t) return;
+  stopPlay();
+  player = new Audio(URL.createObjectURL(new Blob([t.buf], {type: t.mime})));
+  player.play().catch(() => say("This phone could not play the take back. It is still saved."));
+}
+
+function ext(mime) { return mime.includes("webm") ? "webm" : mime.includes("ogg") ? "ogg" : mime.includes("wav") ? "wav" : "m4a"; }
+
+async function share() {
+  const lesson = LESSONS[L], ids = lesson.phrases.map(x => x.id).filter(id => takes[id]);
+  if (!ids.length) return;
+  if (!window.JSZip) { say("The packing tool did not load. Check the connection and reload."); return; }
+  say("Packing takes...");
+  const zip = new JSZip(), manifest = [];
+  for (const id of ids) {
+    const t = takes[id], name = `${id}.${ext(t.mime)}`;
+    zip.file(name, t.buf);
+    manifest.push({id, file: name, text: t.text, lesson: t.lesson, mime: t.mime, dur: +t.dur.toFixed(3), ts: t.ts});
+  }
+  zip.file("takes.json", JSON.stringify(manifest, null, 1));
+  const blob = await zip.generateAsync({type: "blob", compression: "STORE"});
+  const d = new Date(), stamp = `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, "0")}${String(d.getDate()).padStart(2, "0")}-${String(d.getHours()).padStart(2, "0")}${String(d.getMinutes()).padStart(2, "0")}`;
+  const file = new File([blob], `lea-${lesson.key}-${stamp}.zip`, {type: "application/zip"});
+  try {
+    if (navigator.canShare && navigator.canShare({files: [file]})) {
+      await navigator.share({files: [file], title: file.name});
+      say(`Sent ${ids.length} takes as ${file.name}.`);
+    } else {
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(file); a.download = file.name; document.body.append(a); a.click(); a.remove();
+      say(`Saved ${file.name}. Send it to the Mac.`);
+    }
+  } catch (e) {
+    say(e && e.name === "AbortError" ? "Not sent. Your takes are still on the phone." : "Sharing failed. Your takes are still on the phone.");
+  }
+}
+
+$("lesson").onchange = () => { L = +$("lesson").value; i = 0; stopPlay(); render(); };
+$("rec").onclick = toggleRec;
+$("prev").onclick = () => go(i - 1);
+$("next").onclick = () => go(i + 1);
+$("play").onclick = play;
+$("share").onclick = share;
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "SELECT") return;
+  if (e.code === "Space") { e.preventDefault(); toggleRec(); }
+  if (!(rec && rec.state === "recording")) {
+    if (e.key === "ArrowRight") go(i + 1);
+    if (e.key === "ArrowLeft") go(i - 1);
+  }
+});
+document.addEventListener("visibilitychange", () => {   // let the phone switch the mic off while away
+  if (document.hidden && !(rec && rec.state === "recording") && stream) { stream.getTracks().forEach(t => t.stop()); stream = null; }
+});
+
+(async () => {
+  if (!LESSONS.length) { say("No lessons loaded."); return; }
+  $("lesson").replaceChildren(...LESSONS.map((l, k) => { const o = document.createElement("option"); o.value = k; o.textContent = l.title; return o; }));
+  const [key, pos] = (recall("lea-pos") || "").split(":");
+  const k = LESSONS.findIndex(l => l.key === key);
+  if (k >= 0) { L = k; i = Math.min(+pos || 0, LESSONS[k].phrases.length - 1); }
+  $("lesson").value = L;
+  render();
+  db = await openDb();
+  if (!db) say("This browser will not keep takes after the page closes. Send them before leaving.");
+  await loadTakes();
+  render();
+})();
+</script>
+</body>
+</html>
