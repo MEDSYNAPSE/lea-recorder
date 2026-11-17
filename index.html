@@ -155,6 +155,10 @@ function render() {
   }));
   $("share").textContent = done ? `Send ${lesson.short} takes (${done})` : "Send takes";
   $("share").disabled = !done || live;
+  [...$("lesson").options].forEach((o, k) => {   // each menu line shows how much of that set is recorded
+    const ps = LESSONS[k].phrases, n = ps.filter(x => takes[x.id]).length;
+    o.textContent = `${n === ps.length ? "✓ " : ""}${LESSONS[k].title} (${n}/${ps.length})`;
+  });
   remember("lea-pos", `${lesson.key}:${i}`);
 }
 function go(k) { i = Math.max(0, Math.min(LESSONS[L].phrases.length - 1, k)); stopPlay(); render(); }
