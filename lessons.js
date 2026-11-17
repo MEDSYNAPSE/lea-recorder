@@ -706,6 +706,337 @@ window.LESSONS = [
   ]
  },
  {
+  "key": "L10",
+  "short": "Lesson 10",
+  "title": "Lesson 10: The Comitative Mo",
+  "phrases": [
+   {
+    "id": "FK_L10_001",
+    "lesson": "L10",
+    "text": "Naʻá ku ʻalu mo Sione.",
+    "english": "I went with Sione.",
+    "say": "na-ʻA-ku ʻA-lu mo SIO-ne",
+    "tips": [
+     "Say Naʻá ku as one word.",
+     "In Naʻá, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻalu with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L10_002",
+    "lesson": "L10",
+    "text": "ʻOku ou nofo ʻi Vavaʻu mo Mele.",
+    "english": "I live in Vavaʻu with Mele.",
+    "say": "ʻO-ku OU NO-fo ʻi va-VA-ʻu mo ME-le",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻi with a small catch in the throat, like the break in uh-oh.",
+     "In Vavaʻu, stop briefly at the ʻ. It is a real letter, not a pause."
+    ]
+   },
+   {
+    "id": "FK_L10_003",
+    "lesson": "L10",
+    "text": "Naʻá ne haʻu mei Tonga mo Tēvita.",
+    "english": "He came from Tonga with Tēvita.",
+    "say": "na-ʻA-ne HA-ʻu MEI TO-nga mo tee-VI-ta",
+    "tips": [
+     "Say Naʻá ne as one word.",
+     "In Naʻá, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "In haʻu, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "ng in Tonga is the ng of singer, never finger.",
+     "Hold the long vowel in Tēvita about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L10_004",
+    "lesson": "L10",
+    "text": "ʻOku ou ako mo Seini.",
+    "english": "I study with Seini.",
+    "say": "ʻO-ku OU A-ko mo SEI-ni",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L10_005",
+    "lesson": "L10",
+    "text": "Naʻa mau hiva mo Sione.",
+    "english": "We sang with Sione.",
+    "say": "NA-ʻa MAU HI-va mo SIO-ne",
+    "tips": [
+     "In Naʻa, stop briefly at the ʻ. It is a real letter, not a pause."
+    ]
+   },
+   {
+    "id": "FK_L10_006",
+    "lesson": "L10",
+    "text": "Té ke nofo mo ʻAna?",
+    "english": "Will you stay with ʻAna?",
+    "say": "TE-ke NO-fo mo ʻA-na?",
+    "tips": [
+     "Say Té ke as one word.",
+     "Start ʻAna with a small catch in the throat, like the break in uh-oh.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L10_007",
+    "lesson": "L10",
+    "text": "Naʻá ku ʻalu ki kolo mo Sione ʻaneafi.",
+    "english": "I went to town with Sione yesterday.",
+    "say": "na-ʻA-ku ʻA-lu ki KO-lo mo SIO-ne ʻa-NEA-fi",
+    "tips": [
+     "Say Naʻá ku as one word.",
+     "In Naʻá, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻalu with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻaneafi with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L10_008",
+    "lesson": "L10",
+    "text": "Te tau hiva mo Mele ʻapō.",
+    "english": "We will sing with Mele tonight.",
+    "say": "te TAU HI-va mo ME-le ʻa-POO",
+    "tips": [
+     "Start ʻapō with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in ʻapō about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L10_009",
+    "lesson": "L10",
+    "text": "Naʻá ku lea kia Sione mo Mele.",
+    "english": "I spoke to Sione and Mele.",
+    "say": "na-ʻA-ku LEA KIA SIO-ne mo ME-le",
+    "tips": [
+     "Say Naʻá ku as one word.",
+     "In Naʻá, stop briefly at the ʻ. It is a real letter, not a pause."
+    ]
+   },
+   {
+    "id": "FK_L10_010",
+    "lesson": "L10",
+    "text": "Naʻa mau ʻalu ki tahi mo Sēmisi mo ʻAna.",
+    "english": "We went to the sea with Sēmisi and ʻAna.",
+    "say": "NA-ʻa MAU ʻA-lu ki TA-hi mo see-MI-si mo ʻA-na",
+    "tips": [
+     "In Naʻa, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻalu with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in Sēmisi about twice as long.",
+     "Start ʻAna with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L10_011",
+    "lesson": "L10",
+    "text": "Haʻu mo e tohí!",
+    "english": "Bring the book! (Come with the book!)",
+    "say": "HA-ʻu mo e to-HI",
+    "tips": [
+     "In Haʻu, stop briefly at the ʻ. It is a real letter, not a pause."
+    ]
+   },
+   {
+    "id": "FK_L10_012",
+    "lesson": "L10",
+    "text": "ʻAlu mo e valá!",
+    "english": "Take the clothes! (Go with the clothes!)",
+    "say": "ʻA-lu mo e va-LA",
+    "tips": [
+     "Start ʻAlu with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L10_013",
+    "lesson": "L10",
+    "text": "Naʻá ne ʻalu mo au.",
+    "english": "He went with me.",
+    "say": "na-ʻA-ne ʻA-lu mo AU",
+    "tips": [
+     "Say Naʻá ne as one word.",
+     "In Naʻá, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻalu with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L10_014",
+    "lesson": "L10",
+    "text": "Naʻa mau ʻalu ki kolo mo ia.",
+    "english": "We went to town with him.",
+    "say": "NA-ʻa MAU ʻA-lu ki KO-lo mo IA",
+    "tips": [
+     "In Naʻa, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻalu with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L10_015",
+    "lesson": "L10",
+    "text": "ʻOkú ne nofo mo au.",
+    "english": "She lives with me.",
+    "say": "ʻo-KU-ne NO-fo mo AU",
+    "tips": [
+     "Say ʻOkú ne as one word.",
+     "Start ʻOkú with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L10_016",
+    "lesson": "L10",
+    "text": "Té ke haʻu mo kimautolu?",
+    "english": "Will you come with us?",
+    "say": "TE-ke HA-ʻu mo ki-mau-TO-lu?",
+    "tips": [
+     "Say Té ke as one word.",
+     "In haʻu, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L10_017",
+    "lesson": "L10",
+    "text": "Mo hopo!",
+    "english": "Jump! (you two)",
+    "say": "mo HO-po",
+    "tips": []
+   },
+   {
+    "id": "FK_L10_018",
+    "lesson": "L10",
+    "text": "Mo nofo!",
+    "english": "Stay! (you two)",
+    "say": "mo NO-fo",
+    "tips": []
+   },
+   {
+    "id": "FK_L10_019",
+    "lesson": "L10",
+    "text": "Mo ō!",
+    "english": "Go! (you two)",
+    "say": "mo OO",
+    "tips": [
+     "Hold the long vowel in ō about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L10_020",
+    "lesson": "L10",
+    "text": "ʻOua té mo nofo!",
+    "english": "Don't stay, you two!",
+    "say": "ʻOUA TE-mo NO-fo",
+    "tips": [
+     "Say té mo as one word.",
+     "Start ʻOua with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L10_021",
+    "lesson": "L10",
+    "text": "Naʻá ke fanongo kau ki he ngāué?",
+    "english": "Did you hear about the work?",
+    "say": "na-ʻA-ke fa-NO-ngo KAU ki he ngaa-UE?",
+    "tips": [
+     "Say Naʻá ke as one word.",
+     "In Naʻá, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "ng in fanongo is the ng of singer, never finger.",
+     "Hold the long vowel in ngāué about twice as long.",
+     "ng in ngāué is the ng of singer, never finger.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L10_022",
+    "lesson": "L10",
+    "text": "Naʻá ke lau kau ki he akó?",
+    "english": "Did you read about the school?",
+    "say": "na-ʻA-ke LAU KAU ki he a-KO?",
+    "tips": [
+     "Say Naʻá ke as one word.",
+     "In Naʻá, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L10_023",
+    "lesson": "L10",
+    "text": "Naʻá ku lau ha tohi kau ki Tonga.",
+    "english": "I read a book about Tonga.",
+    "say": "na-ʻA-ku LAU ha TO-hi KAU ki TO-nga",
+    "tips": [
+     "Say Naʻá ku as one word.",
+     "In Naʻá, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "ng in Tonga is the ng of singer, never finger."
+    ]
+   },
+   {
+    "id": "FK_L10_024",
+    "lesson": "L10",
+    "text": "Naʻa mau hiva mo ʻOfa ʻanepō.",
+    "english": "We sang with ʻOfa last night.",
+    "say": "NA-ʻa MAU HI-va mo ʻO-fa ʻa-ne-POO",
+    "tips": [
+     "In Naʻa, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻOfa with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻanepō with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in ʻanepō about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L10_025",
+    "lesson": "L10",
+    "text": "Te tau ʻalu ki tahi mo ʻAna ʻapongipongi.",
+    "english": "We will go to the sea with ʻAna tomorrow.",
+    "say": "te TAU ʻA-lu ki TA-hi mo ʻA-na ʻa-po-ngi-PO-ngi",
+    "tips": [
+     "Start ʻalu with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻAna with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻapongipongi with a small catch in the throat, like the break in uh-oh.",
+     "ng in ʻapongipongi is the ng of singer, never finger."
+    ]
+   },
+   {
+    "id": "FK_L10_026",
+    "lesson": "L10",
+    "text": "ʻOkú ne lea kau ki he ngāué.",
+    "english": "He is talking about the work.",
+    "say": "ʻo-KU-ne LEA KAU ki he ngaa-UE",
+    "tips": [
+     "Say ʻOkú ne as one word.",
+     "Start ʻOkú with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in ngāué about twice as long.",
+     "ng in ngāué is the ng of singer, never finger."
+    ]
+   },
+   {
+    "id": "FK_L10_027",
+    "lesson": "L10",
+    "text": "Naʻá ku fanongo kau ki he hivá.",
+    "english": "I heard about the song.",
+    "say": "na-ʻA-ku fa-NO-ngo KAU ki he hi-VA",
+    "tips": [
+     "Say Naʻá ku as one word.",
+     "In Naʻá, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "ng in fanongo is the ng of singer, never finger."
+    ]
+   },
+   {
+    "id": "FK_L10_028",
+    "lesson": "L10",
+    "text": "Té ke lea kau ki he lotú ʻapongipongi?",
+    "english": "Will you talk about the prayer tomorrow?",
+    "say": "TE-ke LEA KAU ki he lo-TU ʻa-po-ngi-PO-ngi?",
+    "tips": [
+     "Say Té ke as one word.",
+     "Start ʻapongipongi with a small catch in the throat, like the break in uh-oh.",
+     "ng in ʻapongipongi is the ng of singer, never finger.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   }
+  ]
+ },
+ {
   "key": "redo",
   "short": "Redo",
   "title": "Redo: weak takes from earlier lessons",
