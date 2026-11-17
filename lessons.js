@@ -2426,9 +2426,1120 @@ window.LESSONS = [
   ]
  },
  {
+  "key": "L15",
+  "short": "Lesson 15",
+  "title": "Lesson 15: Noun Subjects",
+  "phrases": [
+   {
+    "id": "FK_L15_001",
+    "lesson": "L15",
+    "text": "Kuo haʻu ʻa Seini.",
+    "english": "Seini has arrived.",
+    "say": "KUO HA-ʻu ʻa SEI-ni",
+    "tips": [
+     "In haʻu, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_002",
+    "lesson": "L15",
+    "text": "ʻOku nofo ʻa Sēmisi ʻi kolo.",
+    "english": "Sēmisi lives in town.",
+    "say": "ʻO-ku NO-fo ʻa see-MI-si ʻi KO-lo",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in Sēmisi about twice as long.",
+     "Start ʻi with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_003",
+    "lesson": "L15",
+    "text": "Naʻe ʻalu ʻa Sione.",
+    "english": "Sione went.",
+    "say": "NA-ʻe ʻA-lu ʻa SIO-ne",
+    "tips": [
+     "In Naʻe, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻalu with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_004",
+    "lesson": "L15",
+    "text": "ʻE lea ʻa Mele.",
+    "english": "Mele will speak.",
+    "say": "ʻe LEA ʻa ME-le",
+    "tips": [
+     "Start ʻE with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_005",
+    "lesson": "L15",
+    "text": "ʻOku ʻalu ʻa Sione.",
+    "english": "Sione is going.",
+    "say": "ʻO-ku ʻA-lu ʻa SIO-ne",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻalu with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_006",
+    "lesson": "L15",
+    "text": "Kuo hiva ʻa Tēvita.",
+    "english": "Tēvita has sung.",
+    "say": "KUO HI-va ʻa tee-VI-ta",
+    "tips": [
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in Tēvita about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L15_007",
+    "lesson": "L15",
+    "text": "Naʻe mohe ʻa Pita.",
+    "english": "Pita slept.",
+    "say": "NA-ʻe MO-he ʻa PI-ta",
+    "tips": [
+     "In Naʻe, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_008",
+    "lesson": "L15",
+    "text": "ʻOku helaʻia ʻa Mele.",
+    "english": "Mele is tired.",
+    "say": "ʻO-ku he-la-ʻIA ʻa ME-le",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "In helaʻia, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_009",
+    "lesson": "L15",
+    "text": "Naʻe ʻita ʻa Lupe.",
+    "english": "Lupe was angry.",
+    "say": "NA-ʻe ʻI-ta ʻa LU-pe",
+    "tips": [
+     "In Naʻe, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻita with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_010",
+    "lesson": "L15",
+    "text": "ʻOku lele ʻa Mele.",
+    "english": "Mele runs.",
+    "say": "ʻO-ku LE-le ʻa ME-le",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_011",
+    "lesson": "L15",
+    "text": "Naʻe ʻuha.",
+    "english": "It rained.",
+    "say": "NA-ʻe ʻU-ha",
+    "tips": [
+     "In Naʻe, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻuha with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_012",
+    "lesson": "L15",
+    "text": "ʻOku laʻā.",
+    "english": "It is sunny.",
+    "say": "ʻO-ku la-ʻAA",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "In laʻā, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Hold the long vowel in laʻā about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L15_013",
+    "lesson": "L15",
+    "text": "ʻE vela ʻaupito ʻapongipongi.",
+    "english": "It will be very hot tomorrow.",
+    "say": "ʻe VE-la ʻau-PI-to ʻa-po-ngi-PO-ngi",
+    "tips": [
+     "Start ʻE with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻaupito with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻapongipongi with a small catch in the throat, like the break in uh-oh.",
+     "ng in ʻapongipongi is the ng of singer, never finger."
+    ]
+   },
+   {
+    "id": "FK_L15_014",
+    "lesson": "L15",
+    "text": "Naʻe ʻafua pē.",
+    "english": "It was just fine weather.",
+    "say": "NA-ʻe ʻa-FUA PEE",
+    "tips": [
+     "In Naʻe, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻafua with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in pē about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L15_015",
+    "lesson": "L15",
+    "text": "ʻOku lele ki fē ʻa Mele?",
+    "english": "Where is Mele running to?",
+    "say": "ʻO-ku LE-le ki FEE ʻa ME-le?",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in fē about twice as long.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Question with a question word: finish low, like a statement."
+    ]
+   },
+   {
+    "id": "FK_L15_016",
+    "lesson": "L15",
+    "text": "Naʻe mohe ʻi fē ʻa Pita?",
+    "english": "Where did Pita sleep?",
+    "say": "NA-ʻe MO-he ʻi FEE ʻa PI-ta?",
+    "tips": [
+     "In Naʻe, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻi with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in fē about twice as long.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Question with a question word: finish low, like a statement."
+    ]
+   },
+   {
+    "id": "FK_L15_017",
+    "lesson": "L15",
+    "text": "ʻOku ʻi fē ʻa Sione?",
+    "english": "Where is Sione?",
+    "say": "ʻO-ku ʻi FEE ʻa SIO-ne?",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻi with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in fē about twice as long.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Question with a question word: finish low, like a statement."
+    ]
+   },
+   {
+    "id": "FK_L15_018",
+    "lesson": "L15",
+    "text": "ʻOku ʻi kolo.",
+    "english": "He is in town.",
+    "say": "ʻO-ku ʻi KO-lo",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻi with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_019",
+    "lesson": "L15",
+    "text": "Naʻe ʻikai ke ʻalu ʻa Sione.",
+    "english": "Sione did not go.",
+    "say": "NA-ʻe ʻi-KAI ke ʻA-lu ʻa SIO-ne",
+    "tips": [
+     "In Naʻe, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻikai with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻalu with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_020",
+    "lesson": "L15",
+    "text": "ʻOku ʻikai ke puke ʻa Pita.",
+    "english": "Pita is not sick.",
+    "say": "ʻO-ku ʻi-KAI ke PU-ke ʻa PI-ta",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻikai with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_021",
+    "lesson": "L15",
+    "text": "Kuo ʻalu ʻa Sione.",
+    "english": "Sione has gone.",
+    "say": "KUO ʻA-lu ʻa SIO-ne",
+    "tips": [
+     "Start ʻalu with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_022",
+    "lesson": "L15",
+    "text": "ʻE ʻalu ʻa Sione.",
+    "english": "Sione will go.",
+    "say": "ʻe ʻA-lu ʻa SIO-ne",
+    "tips": [
+     "Start ʻE with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻalu with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_023",
+    "lesson": "L15",
+    "text": "Naʻe mohe ʻa Pita ʻi ʻapi.",
+    "english": "Pita slept at home.",
+    "say": "NA-ʻe MO-he ʻa PI-ta ʻi ʻA-pi",
+    "tips": [
+     "In Naʻe, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻi with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻapi with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_024",
+    "lesson": "L15",
+    "text": "ʻOku hiva ʻa Siale.",
+    "english": "Siale is singing.",
+    "say": "ʻO-ku HI-va ʻa SIA-le",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_025",
+    "lesson": "L15",
+    "text": "Naʻe lele ʻa Kepu.",
+    "english": "Kepu ran.",
+    "say": "NA-ʻe LE-le ʻa KE-pu",
+    "tips": [
+     "In Naʻe, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_026",
+    "lesson": "L15",
+    "text": "Naʻe ʻuha ʻanepō.",
+    "english": "It rained last night.",
+    "say": "NA-ʻe ʻU-ha ʻa-ne-POO",
+    "tips": [
+     "In Naʻe, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻuha with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻanepō with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in ʻanepō about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L15_027",
+    "lesson": "L15",
+    "text": "ʻOku ʻalu ki fē ʻa Sione?",
+    "english": "Where is Sione going?",
+    "say": "ʻO-ku ʻA-lu ki FEE ʻa SIO-ne?",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻalu with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in fē about twice as long.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Question with a question word: finish low, like a statement."
+    ]
+   },
+   {
+    "id": "FK_L15_028",
+    "lesson": "L15",
+    "text": "ʻOku ʻalu ʻa Sione ki kolo.",
+    "english": "Sione is going to town.",
+    "say": "ʻO-ku ʻA-lu ʻa SIO-ne ki KO-lo",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻalu with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_029",
+    "lesson": "L15",
+    "text": "ʻOku puke ʻa Pita?",
+    "english": "Is Pita sick?",
+    "say": "ʻO-ku PU-ke ʻa PI-ta?",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L15_030",
+    "lesson": "L15",
+    "text": "ʻIo, ʻoku puke ʻaupito.",
+    "english": "Yes, he is very sick.",
+    "say": "ʻIO ʻO-ku PU-ke ʻau-PI-to",
+    "tips": [
+     "Start ʻIo with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻoku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻaupito with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_031",
+    "lesson": "L15",
+    "text": "Naʻe fiefia ʻa Kepu?",
+    "english": "Was Kepu happy?",
+    "say": "NA-ʻe fie-FIA ʻa KE-pu?",
+    "tips": [
+     "In Naʻe, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L15_032",
+    "lesson": "L15",
+    "text": "ʻIo, naʻe fiefia ʻaupito.",
+    "english": "Yes, he was very happy.",
+    "say": "ʻIO NA-ʻe fie-FIA ʻau-PI-to",
+    "tips": [
+     "Start ʻIo with a small catch in the throat, like the break in uh-oh.",
+     "In naʻe, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻaupito with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L15_033",
+    "lesson": "L15",
+    "text": "Naʻe ʻikai ke haʻu ʻa Tēvita.",
+    "english": "Tēvita did not come.",
+    "say": "NA-ʻe ʻi-KAI ke HA-ʻu ʻa tee-VI-ta",
+    "tips": [
+     "In Naʻe, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻikai with a small catch in the throat, like the break in uh-oh.",
+     "In haʻu, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in Tēvita about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L15_034",
+    "lesson": "L15",
+    "text": "Naʻe ʻikai ke fiefia ʻa Mele.",
+    "english": "Mele was not happy.",
+    "say": "NA-ʻe ʻi-KAI ke fie-FIA ʻa ME-le",
+    "tips": [
+     "In Naʻe, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻikai with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "L16",
+  "short": "Lesson 16",
+  "title": "Lesson 16: Equational Sentences",
+  "phrases": [
+   {
+    "id": "FK_L16_001",
+    "lesson": "L16",
+    "text": "Ko e tangata ngāue ʻa Mafi.",
+    "english": "Mafi is a worker.",
+    "say": "ko e ta-NGA-ta ngaa-UE ʻa MA-fi",
+    "tips": [
+     "ng in tangata is the ng of singer, never finger.",
+     "Hold the long vowel in ngāue about twice as long.",
+     "ng in ngāue is the ng of singer, never finger.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L16_002",
+    "lesson": "L16",
+    "text": "Ko e taʻahine mālohi ʻa Seini.",
+    "english": "Seini is a strong girl.",
+    "say": "ko e ta-ʻa-HI-ne maa-LO-hi ʻa SEI-ni",
+    "tips": [
+     "In taʻahine, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Hold the long vowel in mālohi about twice as long.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L16_003",
+    "lesson": "L16",
+    "text": "Ko e tamasiʻi fiefia ʻa Lātu.",
+    "english": "Lātu is a happy boy.",
+    "say": "ko e ta-ma-SI-ʻi fie-FIA ʻa LAA-tu",
+    "tips": [
+     "In tamasiʻi, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in Lātu about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L16_004",
+    "lesson": "L16",
+    "text": "Ko e taʻahine mālohi ʻa ʻOfa.",
+    "english": "ʻOfa is a strong girl.",
+    "say": "ko e ta-ʻa-HI-ne maa-LO-hi ʻa ʻO-fa",
+    "tips": [
+     "In taʻahine, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Hold the long vowel in mālohi about twice as long.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻOfa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L16_005",
+    "lesson": "L16",
+    "text": "Ko fē ʻa Sione?",
+    "english": "Where is Sione?",
+    "say": "ko FEE ʻa SIO-ne?",
+    "tips": [
+     "Hold the long vowel in fē about twice as long.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Question with a question word: finish low, like a statement."
+    ]
+   },
+   {
+    "id": "FK_L16_006",
+    "lesson": "L16",
+    "text": "Ko e tangata ngāue au.",
+    "english": "I am a worker.",
+    "say": "ko e ta-NGA-ta ngaa-UE AU",
+    "tips": [
+     "ng in tangata is the ng of singer, never finger.",
+     "Hold the long vowel in ngāue about twice as long.",
+     "ng in ngāue is the ng of singer, never finger."
+    ]
+   },
+   {
+    "id": "FK_L16_007",
+    "lesson": "L16",
+    "text": "Ko e tōketā koe?",
+    "english": "Are you a doctor?",
+    "say": "ko e too-ke-TAA KOE?",
+    "tips": [
+     "Hold the long vowel in tōketā about twice as long.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L16_008",
+    "lesson": "L16",
+    "text": "Ko e taʻahine mālohi ia.",
+    "english": "She is a strong girl.",
+    "say": "ko e ta-ʻa-HI-ne maa-LO-hi IA",
+    "tips": [
+     "In taʻahine, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Hold the long vowel in mālohi about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L16_009",
+    "lesson": "L16",
+    "text": "Ko e faiako ʻa Lisiate.",
+    "english": "Lisiate is a teacher.",
+    "say": "ko e FAIA-ko ʻa li-SIA-te",
+    "tips": [
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L16_010",
+    "lesson": "L16",
+    "text": "Ko Lisiate ko e faiako.",
+    "english": "Lisiate is a teacher (Lisiate, and no one else).",
+    "say": "ko li-SIA-te ko e FAIA-ko",
+    "tips": []
+   },
+   {
+    "id": "FK_L16_011",
+    "lesson": "L16",
+    "text": "Ko e tangata mālohi ʻa Peau.",
+    "english": "Peau is a strong man.",
+    "say": "ko e ta-NGA-ta maa-LO-hi ʻa PEAU",
+    "tips": [
+     "ng in tangata is the ng of singer, never finger.",
+     "Hold the long vowel in mālohi about twice as long.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L16_012",
+    "lesson": "L16",
+    "text": "Ko Peau ko e tangata mālohi.",
+    "english": "Peau is a strong man (Peau first, for emphasis).",
+    "say": "ko PEAU ko e ta-NGA-ta maa-LO-hi",
+    "tips": [
+     "ng in tangata is the ng of singer, never finger.",
+     "Hold the long vowel in mālohi about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L16_013",
+    "lesson": "L16",
+    "text": "Ko e fale motuʻa ʻa e falé ni.",
+    "english": "This house is an old house.",
+    "say": "ko e FA-le mo-TU-ʻa ʻa e fa-LE ni",
+    "tips": [
+     "In motuʻa, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L16_014",
+    "lesson": "L16",
+    "text": "Ko e falé ni ko e fale motuʻa.",
+    "english": "This house is an old house (this house first, for emphasis).",
+    "say": "ko e fa-LE ni ko e FA-le mo-TU-ʻa",
+    "tips": [
+     "In motuʻa, stop briefly at the ʻ. It is a real letter, not a pause."
+    ]
+   },
+   {
+    "id": "FK_L16_015",
+    "lesson": "L16",
+    "text": "ʻOku ʻikai ko e tangata ngāue au.",
+    "english": "I am not a worker.",
+    "say": "ʻO-ku ʻi-KAI ko e ta-NGA-ta ngaa-UE AU",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻikai with a small catch in the throat, like the break in uh-oh.",
+     "ng in tangata is the ng of singer, never finger.",
+     "Hold the long vowel in ngāue about twice as long.",
+     "ng in ngāue is the ng of singer, never finger."
+    ]
+   },
+   {
+    "id": "FK_L16_016",
+    "lesson": "L16",
+    "text": "ʻOku ʻikai ko e tōketā ʻa Mele.",
+    "english": "Mele is not a doctor.",
+    "say": "ʻO-ku ʻi-KAI ko e too-ke-TAA ʻa ME-le",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻikai with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in tōketā about twice as long.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L16_017",
+    "lesson": "L16",
+    "text": "Naʻe ʻikai ko e faiako ʻa Fehoko.",
+    "english": "Fehoko was not a teacher.",
+    "say": "NA-ʻe ʻi-KAI ko e FAIA-ko ʻa fe-HO-ko",
+    "tips": [
+     "In Naʻe, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻikai with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L16_018",
+    "lesson": "L16",
+    "text": "Ko e kiʻi tohi.",
+    "english": "It is a small book.",
+    "say": "ko e KI-ʻi TO-hi",
+    "tips": [
+     "In kiʻi, stop briefly at the ʻ. It is a real letter, not a pause."
+    ]
+   },
+   {
+    "id": "FK_L16_019",
+    "lesson": "L16",
+    "text": "Ko e kiʻi tohi motuʻa pē.",
+    "english": "It is just a small old book.",
+    "say": "ko e KI-ʻi TO-hi mo-TU-ʻa PEE",
+    "tips": [
+     "In kiʻi, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "In motuʻa, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Hold the long vowel in pē about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L16_020",
+    "lesson": "L16",
+    "text": "Ko e tangata ngāue ʻa Vaia?",
+    "english": "Is Vaia a worker?",
+    "say": "ko e ta-NGA-ta ngaa-UE ʻa VAIA?",
+    "tips": [
+     "ng in tangata is the ng of singer, never finger.",
+     "Hold the long vowel in ngāue about twice as long.",
+     "ng in ngāue is the ng of singer, never finger.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L16_021",
+    "lesson": "L16",
+    "text": "ʻIo, pea ko e tangata mālohi.",
+    "english": "Yes, and he is a strong man.",
+    "say": "ʻIO PEA ko e ta-NGA-ta maa-LO-hi",
+    "tips": [
+     "Start ʻIo with a small catch in the throat, like the break in uh-oh.",
+     "ng in tangata is the ng of singer, never finger.",
+     "Hold the long vowel in mālohi about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L16_022",
+    "lesson": "L16",
+    "text": "Ko e faiako ʻa Mele.",
+    "english": "Mele is a teacher.",
+    "say": "ko e FAIA-ko ʻa ME-le",
+    "tips": [
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L16_023",
+    "lesson": "L16",
+    "text": "Ko e tamasiʻi poto au.",
+    "english": "I am a clever boy.",
+    "say": "ko e ta-ma-SI-ʻi PO-to AU",
+    "tips": [
+     "In tamasiʻi, stop briefly at the ʻ. It is a real letter, not a pause."
+    ]
+   },
+   {
+    "id": "FK_L16_024",
+    "lesson": "L16",
+    "text": "Ko e kiʻi tohi siʻisiʻi.",
+    "english": "It is a very small book.",
+    "say": "ko e KI-ʻi TO-hi si-ʻi-SI-ʻi",
+    "tips": [
+     "In kiʻi, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "In siʻisiʻi, stop briefly at the ʻ. It is a real letter, not a pause."
+    ]
+   },
+   {
+    "id": "FK_L16_025",
+    "lesson": "L16",
+    "text": "ʻOku ʻikai ko e faiako ʻa Tēvita.",
+    "english": "Tēvita is not a teacher.",
+    "say": "ʻO-ku ʻi-KAI ko e FAIA-ko ʻa tee-VI-ta",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻikai with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in Tēvita about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L16_026",
+    "lesson": "L16",
+    "text": "Ko Taniela ko e faiako.",
+    "english": "Taniela is a teacher (Taniela first).",
+    "say": "ko ta-NIE-la ko e FAIA-ko",
+    "tips": []
+   },
+   {
+    "id": "FK_L16_027",
+    "lesson": "L16",
+    "text": "Ko e tangata faama au.",
+    "english": "I am a farmer.",
+    "say": "ko e ta-NGA-ta FAA-ma AU",
+    "tips": [
+     "ng in tangata is the ng of singer, never finger."
+    ]
+   },
+   {
+    "id": "FK_L16_028",
+    "lesson": "L16",
+    "text": "Ko e kiʻi fala ʻeni.",
+    "english": "This is a small mat.",
+    "say": "ko e KI-ʻi FA-la ʻE-ni",
+    "tips": [
+     "In kiʻi, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻeni with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L16_029",
+    "lesson": "L16",
+    "text": "Ko Siale ko e taʻahine fiefia.",
+    "english": "Siale is a happy girl (Siale first).",
+    "say": "ko SIA-le ko e ta-ʻa-HI-ne fie-FIA",
+    "tips": [
+     "In taʻahine, stop briefly at the ʻ. It is a real letter, not a pause."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "L17",
+  "short": "Lesson 17",
+  "title": "Lesson 17: Possessives",
+  "phrases": [
+   {
+    "id": "FK_L17_001",
+    "lesson": "L17",
+    "text": "Naʻá ke sio ki hoku tokoua?",
+    "english": "Did you see my brother?",
+    "say": "na-ʻA-ke SIO ki HO-ku to-KOUA?",
+    "tips": [
+     "Say Naʻá ke as one word.",
+     "In Naʻá, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L17_002",
+    "lesson": "L17",
+    "text": "ʻOku ʻi hoku fale ʻa Sione.",
+    "english": "Sione is at my house.",
+    "say": "ʻO-ku ʻi HO-ku FA-le ʻa SIO-ne",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻi with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L17_003",
+    "lesson": "L17",
+    "text": "Ko fē hona koté?",
+    "english": "Where are their coats (the two of them)?",
+    "say": "ko FEE HO-na ko-TE?",
+    "tips": [
+     "Hold the long vowel in fē about twice as long.",
+     "Question with a question word: finish low, like a statement."
+    ]
+   },
+   {
+    "id": "FK_L17_004",
+    "lesson": "L17",
+    "text": "Kuo ngalo homa kote.",
+    "english": "We (he and I) have forgotten our coats.",
+    "say": "KUO NGA-lo HO-ma KO-te",
+    "tips": [
+     "ng in ngalo is the ng of singer, never finger."
+    ]
+   },
+   {
+    "id": "FK_L17_005",
+    "lesson": "L17",
+    "text": "Ko e paʻanga ʻa Sione.",
+    "english": "Sione's money.",
+    "say": "ko e pa-ʻA-nga ʻa SIO-ne",
+    "tips": [
+     "In paʻanga, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "ng in paʻanga is the ng of singer, never finger.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L17_006",
+    "lesson": "L17",
+    "text": "Ko e fale ʻo Sione.",
+    "english": "Sione's house.",
+    "say": "ko e FA-le ʻo SIO-ne",
+    "tips": [
+     "Start ʻo with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L17_007",
+    "lesson": "L17",
+    "text": "Ko e vaka ʻo Tēvita.",
+    "english": "Tēvita's boat.",
+    "say": "ko e VA-ka ʻo tee-VI-ta",
+    "tips": [
+     "Start ʻo with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in Tēvita about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L17_008",
+    "lesson": "L17",
+    "text": "Ko e hele ʻa Sione.",
+    "english": "Sione's knife.",
+    "say": "ko e HE-le ʻa SIO-ne",
+    "tips": [
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L17_009",
+    "lesson": "L17",
+    "text": "Ko hoʻo huo?",
+    "english": "Are you hoeing?",
+    "say": "ko HO-ʻo HUO?",
+    "tips": [
+     "In hoʻo, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L17_010",
+    "lesson": "L17",
+    "text": "Ko hoʻo ako?",
+    "english": "Are you studying?",
+    "say": "ko HO-ʻo A-ko?",
+    "tips": [
+     "In hoʻo, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L17_011",
+    "lesson": "L17",
+    "text": "Ko ʻeku ʻalu ki Nukunuku.",
+    "english": "I am going to Nukunuku.",
+    "say": "ko ʻE-ku ʻA-lu ki nu-ku-NU-ku",
+    "tips": [
+     "Start ʻeku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻalu with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L17_012",
+    "lesson": "L17",
+    "text": "Ko ʻeku ʻalu ki Nukuʻalofa.",
+    "english": "I am going to Nukuʻalofa.",
+    "say": "ko ʻE-ku ʻA-lu ki nu-ku-ʻa-LO-fa",
+    "tips": [
+     "Start ʻeku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻalu with a small catch in the throat, like the break in uh-oh.",
+     "In Nukuʻalofa, stop briefly at the ʻ. It is a real letter, not a pause."
+    ]
+   },
+   {
+    "id": "FK_L17_013",
+    "lesson": "L17",
+    "text": "Ko e hā hoʻo meʻa ʻoku fai?",
+    "english": "What are you doing?",
+    "say": "ko e HAA HO-ʻo ME-ʻa ʻO-ku FAI?",
+    "tips": [
+     "Hold the long vowel in hā about twice as long.",
+     "In hoʻo, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "In meʻa, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻoku with a small catch in the throat, like the break in uh-oh.",
+     "Question with a question word: finish low, like a statement."
+    ]
+   },
+   {
+    "id": "FK_L17_014",
+    "lesson": "L17",
+    "text": "Ko e hā ʻene meʻa ʻoku fai?",
+    "english": "What is he/she doing?",
+    "say": "ko e HAA ʻE-ne ME-ʻa ʻO-ku FAI?",
+    "tips": [
+     "Hold the long vowel in hā about twice as long.",
+     "Start ʻene with a small catch in the throat, like the break in uh-oh.",
+     "In meʻa, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻoku with a small catch in the throat, like the break in uh-oh.",
+     "Question with a question word: finish low, like a statement."
+    ]
+   },
+   {
+    "id": "FK_L17_015",
+    "lesson": "L17",
+    "text": "Ko e fai ʻeku tō manioke.",
+    "english": "I am planting cassava.",
+    "say": "ko e FAI ʻE-ku TOO ma-NIO-ke",
+    "tips": [
+     "Start ʻeku with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in tō about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L17_016",
+    "lesson": "L17",
+    "text": "Ko e fai ʻeku tō kumala.",
+    "english": "I am planting sweet potato.",
+    "say": "ko e FAI ʻE-ku TOO ku-MA-la",
+    "tips": [
+     "Start ʻeku with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in tō about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L17_017",
+    "lesson": "L17",
+    "text": "Ko hoʻo lālanga?",
+    "english": "Are you weaving?",
+    "say": "ko HO-ʻo laa-LA-nga?",
+    "tips": [
+     "In hoʻo, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Hold the long vowel in lālanga about twice as long.",
+     "ng in lālanga is the ng of singer, never finger.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L17_018",
+    "lesson": "L17",
+    "text": "Ko hoʻo haka?",
+    "english": "Are you dancing?",
+    "say": "ko HO-ʻo HA-ka?",
+    "tips": [
+     "In hoʻo, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L17_019",
+    "lesson": "L17",
+    "text": "Ko hoʻo ngāue?",
+    "english": "Are you working?",
+    "say": "ko HO-ʻo ngaa-UE?",
+    "tips": [
+     "In hoʻo, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Hold the long vowel in ngāue about twice as long.",
+     "ng in ngāue is the ng of singer, never finger.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L17_020",
+    "lesson": "L17",
+    "text": "Ko e fai ʻeku huo.",
+    "english": "I am hoeing (right now).",
+    "say": "ko e FAI ʻE-ku HUO",
+    "tips": [
+     "Start ʻeku with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L17_021",
+    "lesson": "L17",
+    "text": "ʻOku fai ʻeku huo.",
+    "english": "I am hoeing (these days).",
+    "say": "ʻO-ku FAI ʻE-ku HUO",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻeku with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L17_022",
+    "lesson": "L17",
+    "text": "Ko hoʻo ʻalu ki fē?",
+    "english": "Where are you going?",
+    "say": "ko HO-ʻo ʻA-lu ki FEE?",
+    "tips": [
+     "In hoʻo, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻalu with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in fē about twice as long.",
+     "Question with a question word: finish low, like a statement."
+    ]
+   },
+   {
+    "id": "FK_L17_023",
+    "lesson": "L17",
+    "text": "Ko ʻeku ʻalu ki he fale kaí.",
+    "english": "I am going to the cafeteria.",
+    "say": "ko ʻE-ku ʻA-lu ki he FA-le KAI",
+    "tips": [
+     "Start ʻeku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻalu with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L17_024",
+    "lesson": "L17",
+    "text": "Ko fē hoku tatā?",
+    "english": "Where is my hat?",
+    "say": "ko FEE HO-ku ta-TAA?",
+    "tips": [
+     "Hold the long vowel in fē about twice as long.",
+     "Hold the long vowel in tatā about twice as long.",
+     "Question with a question word: finish low, like a statement."
+    ]
+   },
+   {
+    "id": "FK_L17_025",
+    "lesson": "L17",
+    "text": "Ko e vaka ʻo Mele.",
+    "english": "Mele's boat.",
+    "say": "ko e VA-ka ʻo ME-le",
+    "tips": [
+     "Start ʻo with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L17_026",
+    "lesson": "L17",
+    "text": "ʻOku ʻi fē hoʻo kató?",
+    "english": "Where is your basket?",
+    "say": "ʻO-ku ʻi FEE HO-ʻo ka-TO?",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻi with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in fē about twice as long.",
+     "In hoʻo, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Question with a question word: finish low, like a statement."
+    ]
+   },
+   {
+    "id": "FK_L17_027",
+    "lesson": "L17",
+    "text": "ʻOku lahi hono fale.",
+    "english": "His house is big.",
+    "say": "ʻO-ku LA-hi HO-no FA-le",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L17_028",
+    "lesson": "L17",
+    "text": "Hotau fonua.",
+    "english": "Our country.",
+    "say": "ho-TAU fo-NUA",
+    "tips": []
+   },
+   {
+    "id": "FK_L17_029",
+    "lesson": "L17",
+    "text": "ʻEnau meʻakai.",
+    "english": "Their food.",
+    "say": "ʻe-NAU me-ʻa-KAI",
+    "tips": [
+     "Start ʻEnau with a small catch in the throat, like the break in uh-oh.",
+     "In meʻakai, stop briefly at the ʻ. It is a real letter, not a pause."
+    ]
+   },
+   {
+    "id": "FK_L17_030",
+    "lesson": "L17",
+    "text": "Ko e fale ʻo Pita.",
+    "english": "Pita's house.",
+    "say": "ko e FA-le ʻo PI-ta",
+    "tips": [
+     "Start ʻo with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L17_031",
+    "lesson": "L17",
+    "text": "ʻEku hele.",
+    "english": "My knife.",
+    "say": "ʻE-ku HE-le",
+    "tips": [
+     "Start ʻEku with a small catch in the throat, like the break in uh-oh."
+    ]
+   }
+  ]
+ },
+ {
   "key": "L91",
   "short": "Consult 1",
-  "title": "Consult 1: Opening and keeping it clear. Draft wording, check with a fluent speaker",
+  "title": "Consult 1: Opening and keeping it clear",
   "phrases": [
    {
     "id": "FK_L91_001",
@@ -2643,7 +3754,7 @@ window.LESSONS = [
  {
   "key": "L92",
   "short": "Consult 2",
-  "title": "Consult 2: Finding out what is wrong. Draft wording, check with a fluent speaker",
+  "title": "Consult 2: Finding out what is wrong",
   "phrases": [
    {
     "id": "FK_L92_001",
@@ -2939,7 +4050,7 @@ window.LESSONS = [
  {
   "key": "L93",
   "short": "Consult 3",
-  "title": "Consult 3: Examining and the plan. Draft wording, check with a fluent speaker",
+  "title": "Consult 3: Examining and the plan",
   "phrases": [
    {
     "id": "FK_L93_001",
@@ -3134,6 +4245,436 @@ window.LESSONS = [
      "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
      "Start ʻikai with a small catch in the throat, like the break in uh-oh."
     ]
+   }
+  ]
+ },
+ {
+  "key": "L94",
+  "short": "Consult 4",
+  "title": "Consult 4: Long-term conditions and medicines",
+  "phrases": [
+   {
+    "id": "FK_L94_001",
+    "lesson": "L94",
+    "text": "ʻOkú ke ongoʻi fēfē he ʻahó ni?",
+    "english": "How do you feel today?",
+    "say": "ʻo-KU-ke o-NGO-ʻi fee-FEE he ʻa-HO ni?",
+    "tips": [
+     "Say ʻOkú ke as one word.",
+     "Start ʻOkú with a small catch in the throat, like the break in uh-oh.",
+     "In ongoʻi, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "ng in ongoʻi is the ng of singer, never finger.",
+     "Hold the long vowel in fēfē about twice as long.",
+     "Start ʻahó with a small catch in the throat, like the break in uh-oh.",
+     "Question with a question word: finish low, like a statement."
+    ]
+   },
+   {
+    "id": "FK_L94_002",
+    "lesson": "L94",
+    "text": "ʻOkú ke suka?",
+    "english": "Do you have diabetes?",
+    "say": "ʻo-KU-ke SU-ka?",
+    "tips": [
+     "Say ʻOkú ke as one word.",
+     "Start ʻOkú with a small catch in the throat, like the break in uh-oh.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L94_003",
+    "lesson": "L94",
+    "text": "ʻOku māʻolunga ho totó.",
+    "english": "Your blood pressure is high.",
+    "say": "ʻO-ku maa-ʻo-LU-nga ho to-TO",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "In māʻolunga, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Hold the long vowel in māʻolunga about twice as long.",
+     "ng in māʻolunga is the ng of singer, never finger."
+    ]
+   },
+   {
+    "id": "FK_L94_004",
+    "lesson": "L94",
+    "text": "ʻOku sai ho totó he ʻahó ni.",
+    "english": "Your blood pressure is good today.",
+    "say": "ʻO-ku SAI ho to-TO he ʻa-HO ni",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻahó with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L94_005",
+    "lesson": "L94",
+    "text": "ʻOku māʻolunga ho suká.",
+    "english": "Your sugar is high.",
+    "say": "ʻO-ku maa-ʻo-LU-nga ho su-KA",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "In māʻolunga, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Hold the long vowel in māʻolunga about twice as long.",
+     "ng in māʻolunga is the ng of singer, never finger."
+    ]
+   },
+   {
+    "id": "FK_L94_006",
+    "lesson": "L94",
+    "text": "Té u sivi ho totó.",
+    "english": "I will test your blood.",
+    "say": "TEU SI-vi ho to-TO",
+    "tips": [
+     "Say Té u as one word."
+    ]
+   },
+   {
+    "id": "FK_L94_007",
+    "lesson": "L94",
+    "text": "ʻOkú ke folo hoʻo foʻi ʻakaú he ʻaho kotoa?",
+    "english": "Do you take your pills every day?",
+    "say": "ʻo-KU-ke FO-lo HO-ʻo FO-ʻi ʻa-KAU he ʻA-ho ko-TOA?",
+    "tips": [
+     "Say ʻOkú ke as one word.",
+     "Start ʻOkú with a small catch in the throat, like the break in uh-oh.",
+     "In hoʻo, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "In foʻi, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻakaú with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻaho with a small catch in the throat, like the break in uh-oh.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L94_008",
+    "lesson": "L94",
+    "text": "Kuo ʻosi hoʻo faitoʻó?",
+    "english": "Has your medicine run out?",
+    "say": "KUO ʻO-si HO-ʻo fai-to-ʻO?",
+    "tips": [
+     "Start ʻosi with a small catch in the throat, like the break in uh-oh.",
+     "In hoʻo, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "In faitoʻó, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L94_009",
+    "lesson": "L94",
+    "text": "ʻOkú ke fiemaʻu ha toe faitoʻo?",
+    "english": "Do you need more medicine?",
+    "say": "ʻo-KU-ke fie-MA-ʻu ha TOE fai-TO-ʻo?",
+    "tips": [
+     "Say ʻOkú ke as one word.",
+     "Start ʻOkú with a small catch in the throat, like the break in uh-oh.",
+     "In fiemaʻu, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "In faitoʻo, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L94_010",
+    "lesson": "L94",
+    "text": "ʻOku ʻi ai ha faitoʻo ʻoku kovi kiate koe?",
+    "english": "Is there a medicine that is bad for you?",
+    "say": "ʻO-ku ʻi AI ha fai-TO-ʻo ʻO-ku KO-vi KIA-te KOE?",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻi with a small catch in the throat, like the break in uh-oh.",
+     "In faitoʻo, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻoku with a small catch in the throat, like the break in uh-oh.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L94_011",
+    "lesson": "L94",
+    "text": "ʻOku mahuʻinga ke ke folo hoʻo faitoʻó.",
+    "english": "It is important that you take your medicine.",
+    "say": "ʻO-ku ma-hu-ʻI-nga ke ke FO-lo HO-ʻo fai-to-ʻO",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "In mahuʻinga, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "ng in mahuʻinga is the ng of singer, never finger.",
+     "In hoʻo, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "In faitoʻó, stop briefly at the ʻ. It is a real letter, not a pause."
+    ]
+   },
+   {
+    "id": "FK_L94_012",
+    "lesson": "L94",
+    "text": "ʻOku mamahi ho vaʻé?",
+    "english": "Does your foot hurt?",
+    "say": "ʻO-ku ma-MA-hi ho va-ʻE?",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "In vaʻé, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L94_013",
+    "lesson": "L94",
+    "text": "ʻOku pupula ho vaʻé?",
+    "english": "Is your foot swollen?",
+    "say": "ʻO-ku pu-PU-la ho va-ʻE?",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "In vaʻé, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L94_014",
+    "lesson": "L94",
+    "text": "ʻOkú ke fakamālohisino?",
+    "english": "Do you exercise?",
+    "say": "ʻo-KU-ke fa-ka-maa-lo-hi-SI-no?",
+    "tips": [
+     "Say ʻOkú ke as one word.",
+     "Start ʻOkú with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in fakamālohisino about twice as long.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L94_015",
+    "lesson": "L94",
+    "text": "Fakasiʻisiʻi ʻa e suká.",
+    "english": "Cut down the sugar.",
+    "say": "fa-ka-si-ʻi-SI-ʻi ʻa e su-KA",
+    "tips": [
+     "In Fakasiʻisiʻi, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L94_016",
+    "lesson": "L94",
+    "text": "ʻOua té ke ifi tapaka.",
+    "english": "Do not smoke.",
+    "say": "ʻOUA TE-ke I-fi ta-PA-ka",
+    "tips": [
+     "Say té ke as one word.",
+     "Start ʻOua with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L94_017",
+    "lesson": "L94",
+    "text": "Te tau toe sivi ʻi he māhina ʻe tolu.",
+    "english": "We will test again in three months.",
+    "say": "te TAU TOE SI-vi ʻi he maa-HI-na ʻe TO-lu",
+    "tips": [
+     "Start ʻi with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in māhina about twice as long.",
+     "Start ʻe with a small catch in the throat, like the break in uh-oh."
+    ]
+   },
+   {
+    "id": "FK_L94_018",
+    "lesson": "L94",
+    "text": "Mālō e feinga!",
+    "english": "Well done for trying.",
+    "say": "maa-LOO e FEI-nga",
+    "tips": [
+     "Hold the long vowel in Mālō about twice as long.",
+     "ng in feinga is the ng of singer, never finger."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "L95",
+  "short": "Consult 5",
+  "title": "Consult 5: Children, family and mood",
+  "phrases": [
+   {
+    "id": "FK_L95_001",
+    "lesson": "L95",
+    "text": "Ko hai ʻoku puke?",
+    "english": "Who is sick?",
+    "say": "ko HAI ʻO-ku PU-ke?",
+    "tips": [
+     "Start ʻoku with a small catch in the throat, like the break in uh-oh.",
+     "Question with a question word: finish low, like a statement."
+    ]
+   },
+   {
+    "id": "FK_L95_002",
+    "lesson": "L95",
+    "text": "ʻOku puke ʻa e pēpeé?",
+    "english": "Is the baby sick?",
+    "say": "ʻO-ku PU-ke ʻa e pee-PEE?",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in pēpeé about twice as long.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L95_003",
+    "lesson": "L95",
+    "text": "ʻOku taʻu fiha ʻa e tamasiʻí?",
+    "english": "How old is the boy?",
+    "say": "ʻO-ku TA-ʻu FI-ha ʻa e ta-ma-si-ʻI?",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "In taʻu, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "In tamasiʻí, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Question with a question word: finish low, like a statement."
+    ]
+   },
+   {
+    "id": "FK_L95_004",
+    "lesson": "L95",
+    "text": "ʻOku mofi ʻa e tamasiʻí?",
+    "english": "Does the boy have a fever?",
+    "say": "ʻO-ku MO-fi ʻa e ta-ma-si-ʻI?",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "In tamasiʻí, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L95_005",
+    "lesson": "L95",
+    "text": "ʻOku tale ʻa e taʻahiné?",
+    "english": "Is the girl coughing?",
+    "say": "ʻO-ku TA-le ʻa e ta-ʻa-hi-NE?",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "In taʻahiné, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L95_006",
+    "lesson": "L95",
+    "text": "ʻOku kai lelei ʻa e pēpeé?",
+    "english": "Is the baby feeding well?",
+    "say": "ʻO-ku KAI le-LEI ʻa e pee-PEE?",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in pēpeé about twice as long.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L95_007",
+    "lesson": "L95",
+    "text": "ʻOku tangi lahi ʻa e pēpeé?",
+    "english": "Is the baby crying a lot?",
+    "say": "ʻO-ku TA-ngi LA-hi ʻa e pee-PEE?",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "ng in tangi is the ng of singer, never finger.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in pēpeé about twice as long.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L95_008",
+    "lesson": "L95",
+    "text": "Kuo ʻosi huhu maluʻi ʻa e pēpeé?",
+    "english": "Has the baby been immunised?",
+    "say": "KUO ʻO-si HU-hu ma-LU-ʻi ʻa e pee-PEE?",
+    "tips": [
+     "Start ʻosi with a small catch in the throat, like the break in uh-oh.",
+     "In maluʻi, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Start ʻa with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in pēpeé about twice as long.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L95_009",
+    "lesson": "L95",
+    "text": "ʻOkú ke feitama?",
+    "english": "Are you pregnant?",
+    "say": "ʻo-KU-ke fei-TA-ma?",
+    "tips": [
+     "Say ʻOkú ke as one word.",
+     "Start ʻOkú with a small catch in the throat, like the break in uh-oh.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L95_010",
+    "lesson": "L95",
+    "text": "ʻOkú ke loto mamahi?",
+    "english": "Are you feeling sad?",
+    "say": "ʻo-KU-ke LO-to ma-MA-hi?",
+    "tips": [
+     "Say ʻOkú ke as one word.",
+     "Start ʻOkú with a small catch in the throat, like the break in uh-oh.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L95_011",
+    "lesson": "L95",
+    "text": "ʻOkú ke hohaʻa?",
+    "english": "Are you worried?",
+    "say": "ʻo-KU-ke ho-HA-ʻa?",
+    "tips": [
+     "Say ʻOkú ke as one word.",
+     "Start ʻOkú with a small catch in the throat, like the break in uh-oh.",
+     "In hohaʻa, stop briefly at the ʻ. It is a real letter, not a pause.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L95_012",
+    "lesson": "L95",
+    "text": "ʻOku ʻi ai ha taha ke tokoni kiate koe ʻi ʻapi?",
+    "english": "Is there someone to help you at home?",
+    "say": "ʻO-ku ʻi AI ha TA-ha ke to-KO-ni KIA-te KOE ʻi ʻA-pi?",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻi with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻi with a small catch in the throat, like the break in uh-oh.",
+     "Start ʻapi with a small catch in the throat, like the break in uh-oh.",
+     "Yes/no question: same words as the answer, just lift your voice at the end."
+    ]
+   },
+   {
+    "id": "FK_L95_013",
+    "lesson": "L95",
+    "text": "ʻOku fēfē ho fāmilí?",
+    "english": "How is your family?",
+    "say": "ʻO-ku fee-FEE ho faa-mi-LI?",
+    "tips": [
+     "Start ʻOku with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in fēfē about twice as long.",
+     "Hold the long vowel in fāmilí about twice as long.",
+     "Question with a question word: finish low, like a statement."
+    ]
+   },
+   {
+    "id": "FK_L95_014",
+    "lesson": "L95",
+    "text": "ʻOfa atu ki ho fāmilí.",
+    "english": "Love to your family.",
+    "say": "ʻO-fa A-tu ki ho faa-mi-LI",
+    "tips": [
+     "Start ʻOfa with a small catch in the throat, like the break in uh-oh.",
+     "Hold the long vowel in fāmilí about twice as long."
+    ]
+   },
+   {
+    "id": "FK_L95_015",
+    "lesson": "L95",
+    "text": "Toki sio.",
+    "english": "See you later.",
+    "say": "TO-ki SIO",
+    "tips": []
    }
   ]
  },
