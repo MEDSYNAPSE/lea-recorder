@@ -214,17 +214,18 @@ async function share() {
   const blob = await zip.generateAsync({type: "blob", compression: "STORE"});
   const d = new Date(), stamp = `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, "0")}${String(d.getDate()).padStart(2, "0")}-${String(d.getHours()).padStart(2, "0")}${String(d.getMinutes()).padStart(2, "0")}`;
   const file = new File([blob], `lea-${lesson.key}-${stamp}.zip`, {type: "application/zip"});
+  const save = () => {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(file); a.download = file.name; document.body.append(a); a.click(); a.remove();
+    say(`Saved ${file.name}. Send it to the Mac.`);
+  };
+  if (!(navigator.canShare && navigator.canShare({files: [file]}))) return save();
   try {
-    if (navigator.canShare && navigator.canShare({files: [file]})) {
-      await navigator.share({files: [file], title: file.name});
-      say(`Sent ${ids.length} takes as ${file.name}.`);
-    } else {
-      const a = document.createElement("a");
-      a.href = URL.createObjectURL(file); a.download = file.name; document.body.append(a); a.click(); a.remove();
-      say(`Saved ${file.name}. Send it to the Mac.`);
-    }
+    await navigator.share({files: [file], title: file.name});
+    say(`Sent ${ids.length} takes as ${file.name}.`);
   } catch (e) {
-    say(e && e.name === "AbortError" ? "Not sent. Your takes are still on the phone." : "Sharing failed. Your takes are still on the phone.");
+    // Desktop browsers can claim to share files and then refuse; saving the zip always works.
+    if (e && e.name === "AbortError") say("Not sent. Your takes are still on the phone."); else save();
   }
 }
 
